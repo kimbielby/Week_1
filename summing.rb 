@@ -1,0 +1,12 @@
+numbers = [1, 2, 3, 4, 5]
+
+result = 0
+numbers.each do |number|
+	result = result + number
+end
+result
+
+result = numbers.reduce(10) do |sum, number|
+	sum + number
+end 
+
